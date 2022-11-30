@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #2E948A;
+    width: 1790px;
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    
+    
+}
+
+header img {
+    margin: 20px 0px 26px 82px;
+    background-image: none;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 47px 90px 47px;
+    
+
+}
+
+header a {
+    color: #FDFDFD;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#parte1 {
+    float: left;
+    margin: 130px 0px 0px 206px;
+}
+
+#parte1-imagem img {
+    float: right;
+    margin: 130px 130px 100px 0px;
+}
+
+
+#parte1 h1 {
+    color: #FF4081;
+    font-size: 60px;
+    width: 488px;
+    height: 216px;
+    font-weight: 700;
+}
+
+#parte1 span {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+#parte1 button {
+    color: #FF4081;
+    text-decoration: none;
+    border-radius: 62px;
+    text-align: center;
+    font-weight: 400;
+    border: 2px #FF4081 solid;
+    margin: 15px;
+    font-size: 15px;
+    background-color: #FDFDFD;
+    padding: 5px;
+}
+
+#parte2 {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    padding: 10px;
+    color: #FF4081;
+    width: 1440px;
+    height: 7300px;
+    margin: 109px 187px 119px 0px;
+    background-color: #F6F6F6;
+    
+}
+
+#parte2 span {
+    font-size: 17px;
+    font-weight: 300;
+    color:black
+}
+
+#parte2 button {
+    border-radius: 62px;
+    background-color: #FF4081;
+    color: #FDFDFD;
+    margin-bottom: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+#parte2 img {
+    width: 288px;
+    height: 270px;
+    padding: 80px;
+
+}
+#parte2 h2{
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 700;
+    
+
+}
+
+#tituloparte3 {
+    color: #009688;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+#parte3 {
+    max-width: 1110px;
+    margin: auto;
+}
+
+
+#parte3 .fotinha1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 495px;
+    padding: 20px;    
+}
+
+#parte3 .fotinha2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 495px;
+    padding: 20px;
+}
+
+#parte3 .fotinha3 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 495px;
+    padding: 20px;
+}
+
+#parte3 .fotinha4 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 495px;
+    padding: 20px;
+}
+
+#parte4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: auto;
+   }
+.container ctts{
+     margin: 0px 0px 0px ;
+    display: flex;
+    align-items: center;
+
+   }
+
+#contato {
+    margin: 0px 0px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #contato form {
+    flex-grow: 2;
+    margin-left: 139px;    
+    border-radius: 20px;
+    padding: 105px 136px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contato form h2 {
+    color: #FF4081;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 67px;
+  }
+  
+  #contato form input,
+  #contato form textarea {
+    border: 1px solid #686868;
+    color: #58555D;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 7px 34px;
+    margin-bottom: 23px;
+  }
+  
+  #contato form textarea {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin-bottom: 16px;
+  }
+  
+  #contato form input::placeholder,
+  #contato form textarea::placeholder {
+    color: #58555D;
+  }
+  
+  #contato form input:focus,
+  #contato form textarea:focus {
+    outline: none;
+  }
+  
+  #contato form button {
+    width: 93.13px;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    padding: 2px;
+    align-items: center;
+  }
+  
+  
+  
+  #cabecalho h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-transform: lowercase;
+  
+    color: #FF4081;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    max-width: 419px;
+  }
+
+
+
+footer {
+    width: 1790px;
+    height: 207px;
+    background-color: #419488;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer img {
+    margin: 53px 0px 52px 128px;
+}
+
+footer nav {
+    width: 71px;
+    height: 83px;
+    margin: 53px 0px 71px 0px;
+
+
+}
+
+footer nav a {
+    color: #FDFDFD;
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer button {
+    display:table;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FDFDFD;
+    background-color: #419488;
+    border-radius: 62px;
+    border: 2px white solid;
+    margin: 50px 137px 42px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.parte {
+    
+    margin-bottom: 150px;
+    
+  }
+article {
+  padding-left: 5px;
+  padding-right:5px;
+}
